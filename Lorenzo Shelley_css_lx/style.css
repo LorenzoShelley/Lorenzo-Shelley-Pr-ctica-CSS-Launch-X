@@ -1,0 +1,274 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+svg{
+    color: #2b4bc9;
+    background-color: #ecf1ff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(231,243,252,1) 50%);
+margin: 0 20rem;
+max-width: 60%;
+margin-bottom: 1px;
+}
+
+section{
+    margin: 0 20rem;
+max-width: 60%;
+display: flex;
+margin-bottom: 5rem;
+
+}
+
+.mitad{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    list-style: none ;
+    margin: 0;
+  padding: 0;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2.8rem;
+}
+
+li{
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+   
+}
+
+.sobre{
+    position: relative;
+    top: -230px;
+    right: -350px;
+    max-height: 120px;
+    max-width: 800px;
+    background-color: #e7f2fc;
+    border-radius: 4px;
+}
+
+h1{
+    color: #1f3e72;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1f3e72;
+}
+
+p{
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.nav1{
+    color: #3050ce;
+    font-size: 2rem;
+}
+
+button{
+    padding: 0.5rem 1.5rem;
+    background-color: #2b4bc9;
+    color: #f9f9fa;
+    border-radius: 4px;
+    box-shadow: #2b4bc9 0px 13px 27px -5px, #2b4bc9 0px 8px 16px -8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.iconitosyfrases1{
+    margin-top: 3rem;
+  
+}
+
+.iconitoyfrase2{
+    margin-top: 5rem;
+   
+}
+
+.iconitosyfrases1 span{
+
+    margin-right: 1.5rem;
+}
+
+.bi-shield-check{
+    background-color: #fffae7;
+    color: #ffd21d;
+}
+
+.bi-star-fill{
+    background-color: #fffae7;
+    color: #ffd21d;
+}
+
+.logos img{
+    width: 30%;
+    margin-bottom: 5rem;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2a4779;
+}
+
+.sections{
+    display: grid;
+    
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr); 
+
+}
+
+.partea{
+    margin-bottom: 3rem;
+}
+
+.datos{
+    display: grid;
+    
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr); 
+   column-gap: 2.5rem;
+}
+
+.datos .bi-shield-check{
+
+    color: #2b4bc9;
+    background-color: #ecf1ff;
+}
+
+.datos div{
+    border: 1px solid #e1e1e4;
+    padding: 1rem;
+}
+
+.datos div p{
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+
+.datos div svg{
+    height: 2.2rem;
+    width: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.preparations{
+    border: 1px solid #e1e1e4;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    min-width: 50%;
+}
+
+.mitad2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    margin-left: 3rem;
+}
+
+.datos2{
+    margin-top: 3rem;
+    display: grid;
+    
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); 
+
+    row-gap: 4rem;
+    column-gap: 4rem;
+}
+
+.datos2 div{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e1e1e4;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.datos2 div svg{
+    height: 2.2rem;
+    width: 2.2rem;
+    
+}
+
+.datos2 div p{  margin-bottom: 1rem;}
+
+.datos2 button{
+    padding: 1rem 2rem ;
+    background-color: #f1f5ff;
+    color: #2c4cca;
+    border-style: none;
+    box-shadow: none;
+   
+}
+
+footer{
+    background-color: #eef3ff;
+    margin: 0 20rem;
+max-width: 60%;
+margin-bottom: 1px;
+}
+
+.nav2{
+    
+   color:  #304d7d ;
+   font-weight: bold;
+}
+
+.pie{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.pie ul{
+display: table-cell;
+border-collapse: separate;
+border-spacing: 1rem;
+
+}
+
+
+
+.pie li{
+    font-size: 0.8rem;
+    display: table;
+}
+
+.choroFinal{
+    font-size:  0.8rem; 
+    margin-top: 1rem;
+}
+
+.final{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 50px;
+}
+
+.final p,ul{
+    font-size:  0.8rem; 
+    margin-top: 2rem;
+}
